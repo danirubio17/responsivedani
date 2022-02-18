@@ -1,11 +1,11 @@
 /* Declaring custom properties */
 * {
   box-sizing: border-box;
-  border:thin solid black;
+  border: thin solid blue;
 }
 
 #header {
-  background-color: #42cdc6;
+  background-color: #76071a;
 }
 
 #menu {
@@ -37,4 +37,31 @@
 .sidebar-title {
   font-size: 0.6em;
   font-weight: bolder;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#banner
+
+.card-image img {
+  width: 250px;
+  height: 250px;
+}
+
+.card-image4 img {
+  width:250px;
+  height: 250px;
+}
+
+.card-image3 img {
+  width: 250px;
+  height: 250px;
+}
+
+.card-ps5 img {
+  width: 300px;
+  height: 600px;
 }
