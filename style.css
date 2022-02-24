@@ -1,7 +1,7 @@
 /* Declaring custom properties */
 * {
   box-sizing: border-box;
-  border: thin solid blue;
+  
 }
 
 #header {
@@ -64,4 +64,61 @@
 .card-ps5 img {
   width: 300px;
   height: 600px;
+}
+
+#footer {
+  background-color: #32373a;
+  color: gray;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+#footer h6 {
+  font-size: 1em;
+}
+
+#footer ul {
+  font-size: 0.8em;
+}
+
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1024px) {
+
+  #menu > ul > li {
+    display: block;
+    padding: 0.2em;
+  }
+
+  #search-bar {
+    float: none;
+    border-left: none !important;
+  }
+
+  #main {
+    grid-template-columns: 1fr;
+  }
+
+  #content {
+    grid-template-columns: 1fr;
+  }
+
+  #footer {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-columns {
+    grid-template-columns: 1fr;
+  }
+
 }
